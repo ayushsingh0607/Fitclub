@@ -1,0 +1,52 @@
+.Email_wrapper{
+    display: flex;
+    margin-left: 2rem;
+    flex: 1 1;
+    
+}
+.email_left{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+.email_left>hr{
+    border: 2px solid var(--orange);
+    width: 10rem;
+    border-radius: 20%;
+    position: absolute;
+    margin: -10px 0px;
+    
+
+}
+.email_right{
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items:center;
+    
+}
+.email{
+    display: flex;
+    background-color: gray;
+    padding: 1rem 2rem;
+    gap: 3rem;
+    border: none;
+    
+}
+.email>input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+.email>input::placeholder{
+    color: white;
+}
+.join_btn{
+    color: white;
+    font-weight: bold;
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

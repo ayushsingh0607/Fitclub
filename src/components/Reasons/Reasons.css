@@ -1,0 +1,66 @@
+.body_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    width: 200rem;
+}
+.img_container{
+    display:flex;
+    gap:3rem;
+    margin-left: 2rem;
+}
+.img_other{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.img_oth{
+    display:flex;
+    gap:1rem;
+}
+.img_1{
+    width:12rem;
+    height:27rem;
+}
+.img_2{
+    height:16rem;
+    width: auto;
+}
+.img_3{
+    width:14rem;
+    height:10rem ;
+}
+.img_4{
+    width:14rem;
+    height:10rem;
+}
+.right_text{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 100%;
+    height:50%;
+}
+.head2{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.para{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    color: white;
+    font-weight:bold ;
+    gap: 12px;
+}
+.part_img{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.img_part{
+    display: flex;
+    gap:10px;
+
+}
