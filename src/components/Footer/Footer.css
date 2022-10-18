@@ -41,3 +41,17 @@
     height: 12rem;
     background: red;
 }
+@media screen and (max-width:768px) {
+    .footer_blur1{
+        display: none;
+    }
+    .footer_blur2{
+        display: none;
+    }
+    .line_foot{
+        overflow: hidden;
+    }
+    .Footer_wrapper{
+        overflow: hidden;
+    }
+}

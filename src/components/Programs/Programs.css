@@ -56,3 +56,24 @@
     font-size: 16px;
     cursor:pointer;
 }
+@media screen and (max-width:768px) {
+    .programs_title{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        font-size: x-large;
+        margin-top: 2rem;
+    }
+    .stroke{
+        font-size: 2rem;
+    }
+    .programs_body{
+        flex-direction: column;
+
+    }
+    .card{
+        width: 12rem;
+    }
+    
+}

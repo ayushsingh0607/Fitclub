@@ -12,7 +12,7 @@ const Testimonials = () => {
     const tlength = testimonialsData.length;
 
     return (
-        <div className="Test_wrapper">
+        <div className="Test_wrapper" id='testimonials'>
             <div className="test_left">
                 <div className="test_title">
                     <span style={{ color: "var(--orange)", fontWeight: "bold" }}>Testimonials</span>

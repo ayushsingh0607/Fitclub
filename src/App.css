@@ -20,6 +20,7 @@
 }
 ::-webkit-scrollbar{
   display: none;
+  scroll-behavior: smooth;
 }
 .stroke{
   color:transparent;

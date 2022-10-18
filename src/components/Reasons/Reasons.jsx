@@ -11,26 +11,26 @@ import nike from "../../assets/nike.png";
 
 const Reasons = () => {
     return (
-        <div className="body_wrapper">
+        <div className="body_wrapper" id='why us'>
             <div className="left_img">
                 <div className="img_container">
                     <img className="img_1" src={img1} alt="img1" />
                     <div className="img_other">
-                    <img className="img_2" src={img2} alt="img2" />
-                    <div className="img_oth">
-                    <img className="img_3" src={img3} alt="img3" />
-                    <img className="img_4" src={img4} alt="img4" />
-                    </div>
+                        <img className="img_2" src={img2} alt="img2" />
+                        <div className="img_oth">
+                            <img className="img_3" src={img3} alt="img3" />
+                            <img className="img_4" src={img4} alt="img4" />
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="right_text">
                 <div className="head1">
-                    <span style={{color:"var(--orange)", fontWeight:"bold"}}>Some Reasons</span>  
+                    <span style={{ color: "var(--orange)", fontWeight: "bold" }}>Some Reasons</span>
                 </div>
                 <div className="head2">
                     <span className='stroke'>WHY</span>
-                    <span style={{color:"white"}}> Choose Us ?</span>
+                    <span style={{ color: "white" }}> Choose Us ?</span>
                 </div>
                 <div className='para'>
                     <img src={tick} alt="tick" />
@@ -50,12 +50,12 @@ const Reasons = () => {
                 </div>
                 <div className='part_img'>
                     <div className="text">
-                    <span style={{color:"var(--gray)", fontStyle:"italic"}}>OUR PARTNERS</span>
+                        <span style={{ color: "var(--gray)", fontStyle: "italic" }}>OUR PARTNERS</span>
                     </div>
                     <div className="img_part">
-                    <img  src={nb} alt="nb" />
-                    <img src={adidas} alt="adidas" />
-                    <img src={nike} alt="nike" />
+                        <img src={nb} alt="nb" />
+                        <img src={adidas} alt="adidas" />
+                        <img src={nike} alt="nike" />
                     </div>
 
                 </div>

@@ -64,3 +64,38 @@
     gap:10px;
 
 }
+
+@media screen and (max-width:768px) {
+    .body_wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left_img{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+    .img_container{
+        gap: 1rem;
+    }
+    .img_1{
+        width: 7rem;
+        height: 17rem;
+    }
+    .img_2{
+        width: 12rem;
+        height: 10rem;
+    }
+    .img_3{
+        width: 12rem;
+        height: 6rem;
+    }
+    .img_4{
+        display: none;
+    }
+    .img_oth{
+        gap: 5px;
+    }
+    .head2 > span:nth-of-type(2){
+        font-size: xx-large;
+    }
+}

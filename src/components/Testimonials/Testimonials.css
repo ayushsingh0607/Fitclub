@@ -66,3 +66,43 @@
     position: absolute;
     left: 4.5rem;
 }
+
+@media screen and (max-width:768px) {
+    .Test_wrapper{
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+    .test_left{
+        gap: 1.5rem;
+    }
+    .test_head> span:nth-of-type(2){
+        font-size: xx-large;
+    }
+    .test_left> span:nth-of-type(2){
+        font-size: small;
+    }
+    .test_right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .border{
+        display: none;
+    }
+    .filled_border{
+        display: none;
+    }
+    .test_image>img{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        align-self: center;
+    }
+    .test_arrow>img{
+        display: block;
+        margin-top: 15px;
+    }
+
+    
+}

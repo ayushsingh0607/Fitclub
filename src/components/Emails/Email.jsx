@@ -21,7 +21,7 @@ const Email = () => {
                 <hr />
                 <div className="email_head">
                     <span className='stroke'>READY TO</span>
-                    <span style={{color:"white", fontSize:"3rem", fontWeight:"bold"}}> LEVEL UP <br/> YOUR BODY</span>
+                    <span> LEVEL UP <br/> YOUR BODY</span>
                     <span className='stroke'> WITH US ?</span>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import "./Programs.css";
 
 const Programs = () => {
     return (
-        <div className="programs_wrapper">
+        <div className="programs_wrapper" id='Programs'>
             <div className="programs_title">
                 <span className='stroke'>EXPLORE OUR</span>
                 <span className="second" style={{ color: "white" }}>PROGRAMS</span>
