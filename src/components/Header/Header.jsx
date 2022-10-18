@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { GiCrossMark } from 'react-icons/gi';
 
 const Header = () => {
-  const [togglemenu, setTogglemenu] = useState('false');
+  const [togglemenu, setTogglemenu] = useState(false);
   return (
     <div className="header">
 
